@@ -1,0 +1,279 @@
+/* body */
+/*body text color #757575*/
+
+/*secondary text color #212121*/
+
+/*text accent color #2196F3*/
+html {
+    box-sizing: border-box;
+}
+    *,
+    *::after,
+    *::before {
+    box-sizing: inherit;
+}
+    /* Стили для обнуления верхних отступов у элементов */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+    margin-top: 0;
+}
+    /* Класс для обнуления базовых свойств у списков (ul) */
+    li {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+    /* Класс для обнуления базовых свойств у ссылок */
+    a {
+    text-decoration: none;
+    color: inherit;
+}
+    /* Свойства для корректного отображения картинок */
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+    /* Свойства для обнуления курсива у address */
+    
+    address {
+    font-style: normal;
+}
+
+    body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--s-lightgrey);
+    letter-spacing: 0.03em;
+    background-color: var(--s-white);
+}
+    :root { 
+    --s-blue: #2196F3;
+    --s-white: #fff;
+    --s-black: #212121;
+    --s-grey: #2F303A;
+    --s-lightgrey: #757575;
+    --s-whitebutton: #F5F4FA;
+}
+/* heder style */
+
+/* logo*/
+    .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--s-blue);
+    font-size: 26px;
+    line-height: 1.19;
+}
+    .logo-studio {
+    font-weight: 700;
+    color: var(--s-black);
+    font-size: 26px;
+    line-height: 1.19;
+}
+/*sate nav*/
+    .link-nav,
+    .link-nav-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--s-black);
+}
+    .link-nav-portfolio {
+    color: var(--s-blue);
+    }
+    
+    .link-nav:hover,
+    .link-nav:focus {
+    color: var(--s-blue);
+}
+/* mail and telephon*/
+
+    .link-mailtel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--s-lightgrey);
+}
+    .link-mailtel:hover,
+    .link-mailtel:focus {
+    color: var(--s-blue);
+}
+
+/*hero background*/
+    .hero {
+    background-color: var(--s-grey);
+}
+/*hero text*/
+    .hero-title { 
+    color: var(--s-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/*hero button*/
+    .button-hero {
+    background-color: var(--s-blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+       
+    color: var(--s-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+/*our advantages*/
+    .advantages {
+    visibility: hidden;
+}
+    .advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--s-black);
+}
+    .advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* foto what are we doing*/
+    .foto-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--s-black);
+}
+    .foto {
+    width: 370px;
+}
+/*our team*/
+    
+    .section-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--s-black);
+    }
+    .team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--s-black);
+}
+    .team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+    .foto-team {
+    width: 270px;
+    }
+
+/*futer*/
+    .bloc-footer {
+    background-color: var(--s-grey)
+}
+    address {
+    font-style: normal;
+}
+    .logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--s-blue);
+}
+    .logo-studio-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--s-white);
+}
+    .footer-link-maps {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--s-white);
+}
+    .footer-link-maps:focus,
+    .footer-link-maps:hover {
+    color: var(--s-blue);
+}
+
+    .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+    .footer-link:focus,
+    .footer-link:hover {
+    color: var(--s-blue);
+}
+
+    
+    /*portfolio*/
+
+/*butoon-filtr*/
+    .services {
+    visibility: hidden;
+}
+    .button-filtr,
+    .button-filtr-portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0;
+
+    background-color: var(--s-whitebutton);
+    text-align: center;
+}
+    .button-filtr-portfolio {
+    background-color: var(--s-blue);
+    color: var(--s-white);
+    }
+
+    .button-filtr:hover,
+    .button-filtr:focus {
+    background-color: var(--s-blue);
+    color: var(--s-white);
+}
+    .services-foto {
+    width: 370px;
+}
+    .services-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--s-black);
+}
+    .services-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+
+
+
+
+
